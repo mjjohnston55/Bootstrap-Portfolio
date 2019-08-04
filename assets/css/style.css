@@ -12,12 +12,6 @@ body {
 
 /* general */
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-}
 
 h1,
 h2,
@@ -168,13 +162,21 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
+
+#profpic-container {
+  float: left;
+  margin-top: 10px;
+  margin-right: 25px;
+  max-width: 200px;
+
+}
+/* .auth-image {
   float: left;
   width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
+} */
 
 /* contact page */
 
@@ -215,7 +217,3 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-/* #last-picture {
-  width: 48% !important;
-} */
